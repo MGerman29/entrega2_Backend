@@ -1,0 +1,13 @@
+<h1>Productos (Home)</h1>
+<ul class="product-list">
+    {{#if products.length}}
+    {{#each products}}
+    <li>
+        <strong>{{this.title}}</strong> — ${{this.price}} — Stock: {{this.stock}}
+        <div class="muted">{{this.description}}</div>
+    </li>
+    {{/each}}
+    {{else}}
+    <li>No hay productos cargados aún.</li>
+    {{/if}}
+</ul>
