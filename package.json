@@ -1,18 +1,34 @@
 {
-    "name": "entrega-2-websockets",
-    "version": "1.0.0",
-    "main": "src/server.js",
-    "type": "commonjs",
-    "scripts": {
-        "dev": "nodemon src/server.js",
-        "start": "node src/server.js"
-    },
-    "dependencies": {
-        "express": "^4.19.2",
-        "express-handlebars": "^7.1.2",
-        "socket.io": "^4.7.5"
-    },
-    "devDependencies": {
-        "nodemon": "^3.0.1"
-    }
+  "name": "entrega2_backend",
+  "version": "1.0.0",
+  "description": "Entrega N°2 - Backend I (Coderhouse): Express + Socket.IO + Handlebars con actualización en tiempo real.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-handlebars": "^7.1.3",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MGerman29/entrega2_Backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MGerman29/entrega2_Backend/issues"
+  },
+  "homepage": "https://github.com/MGerman29/entrega2_Backend#readme"
 }
